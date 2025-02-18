@@ -1,0 +1,75 @@
+.container {
+    display: grid;
+    grid-template-columns:
+      1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "header header header header"
+      "contact education education education"
+      "contact education education education"
+      "skills experience experience experience"
+      "languages experience experience experience";
+  }
+  
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 60%;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    grid-area : header;
+    text-align: center;
+    background: #154ba8;
+    color: white;
+    padding: 10px 0;
+}
+
+#contact {
+    grid-area : contact;
+}
+
+#education {
+    grid-area : education;
+}
+
+#skills {
+    grid-area : skills;
+}
+
+#languages {
+    grid-area : languages;
+}
+
+#experience {
+    grid-area : experience;
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+
+.contact, .education, .experience, .skills, .languages {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #e4e4e4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
