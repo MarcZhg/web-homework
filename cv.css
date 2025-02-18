@@ -43,6 +43,7 @@ header {
 
 #education {
     grid-area : education;
+    padding: 10px;
 }
 
 #skills {
@@ -59,6 +60,7 @@ header {
 
 #experience {
     grid-area : experience;
+    padding: 10px;
 }
 
 h1, h2 {
